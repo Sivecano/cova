@@ -840,7 +840,7 @@ test "argument analysis" {
         }    
     };
 
-    try utils.displayCmdInfo(TestCommand, test_cmd, alloc, writer);
+    try utils.displayCmdInfo(TestCommand, test_cmd, alloc, writer, false);
 
     //_ = test_setup_cmd.SubCommandsEnum();
 }
